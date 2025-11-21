@@ -205,3 +205,10 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project Specific ---
+# Ignore large data & models
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
